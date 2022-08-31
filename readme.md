@@ -62,3 +62,7 @@ make aspeed_g5_defconfig
 make -j $(nproc)
 
 ## x86 architecture kernel build example 
+
+qemu-system-x86_64 -hda disk.img -cdrom ../yocto101/core-image-minimal-genericx86-64.iso -boot d -nographic
+
+qemu-system-x86_64 -hda disk.img -nographic
