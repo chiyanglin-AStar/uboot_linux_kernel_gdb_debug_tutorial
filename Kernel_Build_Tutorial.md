@@ -1,6 +1,7 @@
 #  Kernel Build Tutorial 
 ref : https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html
 ref : https://shenki.github.io/Booting-an-OpenBMC-kernel/
+ref : https://hackmd.io/@c_0KKCwzQE2rsd39mpvNQQ/rknxhDzvB
 
 Linux kernel formal site :  https://www.kernel.org/ 
 
