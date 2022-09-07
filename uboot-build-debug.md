@@ -17,10 +17,6 @@ make mrproper    (if have used make command)
 
 make evb-ast2500_defconfig
 
-CROSS_COMPILE="ccache arm-linux-gnueabi-"  make -j $(nproc)
-
-or 
-
 make -j $(nproc)
 
 ##  make u-boot image for gemu
