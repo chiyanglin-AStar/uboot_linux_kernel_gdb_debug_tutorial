@@ -2,3 +2,5 @@ a*.out
 linux-*
 yocto101
 busybox
+u-boot*
+openbmc*

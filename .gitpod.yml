@@ -1,7 +1,7 @@
 # CodingCoffee  C/C++ GitPod Examples more courses : http://www.codingcoffee.org
 tasks:
   - init: echo 'this is linux kernel image build example' # runs during prebuild
-    command: echo 'arm linux kernel build tutorial' && sudo apt update && sudo apt-get -y install qemu cpio qemu-system qemu-system-i386
+    command: echo 'arm linux kernel build tutorial' && sudo apt update && sudo apt-get -y install qemu cpio qemu-system qemu-system-i386 gdb-multiarch qemu-system-arm gcc-arm-linux-gnueabi flex
 
 # CodingCoffee  C/C++ GitPod Examples more courses : http://www.codingcoffee.org
 ports:
