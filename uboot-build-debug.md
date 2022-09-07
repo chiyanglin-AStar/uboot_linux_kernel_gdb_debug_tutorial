@@ -25,6 +25,13 @@ make -j $(nproc)
 
  dd if=u-boot.bin of=test.img conv=notrunc
 
-qemu-system-arm -M ast2500-evb -nographic -drive file=test.img,format=raw,if=mtd,readonly -s -S 
+##  qemu usage 
+
+qemu-system-arm -M ast2500-evb -nographic -drive file=test.img,format=raw,if=mtd
 
 qemu-system-arm -M tacoma-bmc -nographic -drive file=test.img,format=raw,if=mtd
+
+### if need to wait gdb 
+qemu-system-arm -M ast2500-evb -nographic -drive file=test.img,format=raw,if=mtd,readonly -s -S 
+
+qemu-system-arm -M tacoma-bmc -nographic -drive file=test.img,format=raw,if=mtd,readonly -s -S
