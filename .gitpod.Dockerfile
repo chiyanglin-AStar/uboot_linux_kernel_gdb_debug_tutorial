@@ -1,8 +1,10 @@
 FROM gitpod/workspace-full-vnc
+#RUN sudo apt-get update && \
+#    sudo apt-get install -y libgtk-3-dev && \
+#    sudo rm -rf /var/lib/apt/lists/*
 RUN sudo apt-get update && \
-    sudo apt-get install -y libgtk-3-dev && \
+    sudo apt-get install -y libx11-dev libxkbfile-dev libsecret-1-dev libgconf2–4 libnss3 && \
     sudo rm -rf /var/lib/apt/lists/*
-
 
 # This will pull the official Gitpod `vnc` image
 # which has much of what you need to start
