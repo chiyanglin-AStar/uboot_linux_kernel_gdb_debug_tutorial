@@ -17,3 +17,5 @@
 - [用Qemu模擬ARM](https://jasonblog.github.io/note/qemu/yong_qemu_mo_ni_arm.html)
 
 - [如何用Qemu来模拟ARM系统](https://www.cnblogs.com/sewain/p/14206365.html)
+
+- [QEMU + GNU Debugger Basic Tutorial](https://mariokartwii.com/showthread.php?tid=1998)
