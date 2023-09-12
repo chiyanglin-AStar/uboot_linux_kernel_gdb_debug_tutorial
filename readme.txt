@@ -1,19 +1,9 @@
-//  This is CodingCoffee for C/C++ simple hello world gitpod example
+//  This is CodingCoffee for gdb debug tutorial in gitpod
+//  1.  gdb debug hello world
+//  2.  gdb remote debug 
+//  3.  gdb debug with Qemu uboot 
+//  4.  gdb debug with Qemu Kernel 
+//  5.  gdb debug with Qemu Embedded hello world (using OpenBMC recipe)
+//  6.  gdb debug with Qemu Embedded system service (using OpenBMC recipe)
 //  more courses : www.codingcoffee.org
 
-gcc ex7-2.c -lm 
-
-g++ ex7-2.cpp 
-
-rm a.out 
-
-ls 
-
-ls *.c 
-
-ls *.cpp
-
-git status 
-git add .
-git commit -m "update"
-git push
