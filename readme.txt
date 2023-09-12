@@ -3,7 +3,6 @@
 //  2.  gdb remote debug 
 //  3.  gdb debug with Qemu uboot 
 //  4.  gdb debug with Qemu Kernel 
-//  5.  gdb debug with Qemu Embedded hello world (using OpenBMC recipe)
-//  6.  gdb debug with Qemu Embedded system service (using OpenBMC recipe)
+//  5.  gdb debug with Qemu Embedded hello world (using OpenBMC recipe, move to CodingCoffee OpenBMC Courses )
+//  6.  gdb debug with Qemu Embedded system service (using OpenBMC recipe, move to CodingCoffee OpenBMC Courses)
 //  more courses : www.codingcoffee.org
-
